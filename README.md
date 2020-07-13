@@ -10,7 +10,7 @@
 ## Overview
 ### Description
 
-Quizly is a basic quiz app.
+Quizly is a personality quiz application that .
 
 ## Product Specs
 ### User Stories
