@@ -15,8 +15,8 @@ Quizly is a personality quiz application that .
 ## Product Specs
 ### User Stories
 
-- [ ] User shall be able to select an answer from a multiple choice quiz.
-- [ ] User shall be able to restart quiz at the end.
+- [x] User shall be able to select an answer from a multiple choice quiz.
+- [x] User shall be able to restart quiz at the end.
 
 ## App Walkthrough
 
