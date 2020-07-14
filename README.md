@@ -10,7 +10,7 @@
 ## Overview
 ### Description
 
-Quizly is a personality quiz application that .
+Quizly is a personality quiz app.
 
 ## Product Specs
 ### User Stories
@@ -22,9 +22,9 @@ Quizly is a personality quiz application that .
 
 Here's a GIF of how the app works:
 
-<img src="ADD_GIF_LINK" width=250>
+<img src="https://github.com/py415/app-resources/blob/master/flutter/ios/flutter-ios-quizly.gif" width=250>
 
-<img src="ADD_GIF_LINK" width=250>
+<img src="https://github.com/py415/app-resources/blob/master/flutter/android/flutter-android-quizly.gif" width=250>
 
 ## Libraries
 
