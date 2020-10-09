@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 
-import './question.dart';
-import './answer.dart';
+import 'question.dart';
+import 'answer.dart';
 
 class Quiz extends StatelessWidget {
+  // List of quiz questions.
   final List<Map<String, Object>> questions;
+  // Index for tracking questions.
   final int questionIndex;
+  // Method to handle when user selects an answer.
   final Function answerQuestion;
 
   Quiz(

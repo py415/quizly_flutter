@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 
+// Blueprint for Answers widget.
 class Answer extends StatelessWidget {
+  // Method to handle selected answer.
   final Function selectHandler;
+  // Text of answer.
   final String answerText;
+  // Horizontal margins for Container.
   static const hMargin = 64.0;
+  // Vertical margins for Container.
   static const vMargin = 4.0;
 
   Answer(this.selectHandler, this.answerText);

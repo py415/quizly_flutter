@@ -1,12 +1,10 @@
 import 'package:Quizly/views/quiz.dart';
 import 'package:flutter/material.dart';
 
-import './quiz.dart';
-import './result.dart';
+import 'quiz.dart';
+import 'result.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
   @override
@@ -14,6 +12,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  // List of questions and answers for the quiz.
   final _questions = const [
     {
       'questionText': 'What\'s your favorite color?',
@@ -43,9 +42,12 @@ class _MyAppState extends State<MyApp> {
       ]
     },
   ];
+  // Index for tracking questions.
   var _questionIndex = 0;
+  // Total score for quiz.
   var _totalScore = 0;
 
+  // Reset quiz states.
   void _resetQuiz() {
     setState(() {
       _questionIndex = 0;
@@ -53,6 +55,7 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
+  // Answer question and update score.
   void _answerQuestion(int score) {
     _totalScore += score;
 

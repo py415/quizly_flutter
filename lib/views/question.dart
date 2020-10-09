@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+// Blueprint for question widget.
 class Question extends StatelessWidget {
+  // Text for question.
   final String questionText;
 
   Question(this.questionText);
