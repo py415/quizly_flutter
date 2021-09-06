@@ -22,9 +22,9 @@ Quizly is a personality quiz app.
 
 Here's a GIF of how the app works:
 
-<img src="https://github.com/py415/app-resources/blob/master/flutter/ios/flutter-ios-quizly.gif" width=250>
+<img src="https://raw.githubusercontent.com/py415/app-resources/master/flutter/ios/flutter-ios-quizly.gif" width="250" />
 
-<img src="https://github.com/py415/app-resources/blob/master/flutter/android/flutter-android-quizly.gif" width=250>
+<img src="https://raw.githubusercontent.com/py415/app-resources/master/flutter/android/flutter-android-quizly.gif" width="250" />
 
 ## Libraries
 
